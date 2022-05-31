@@ -1,5 +1,5 @@
 const books = require('express').Router()
-const Book = require('../models/book')
+const Book = require('../model/book')
 
 //get seed books
 books.get('/seed', (req, res) => {
